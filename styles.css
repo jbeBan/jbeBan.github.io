@@ -1,18 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
- h1 {
     text-align: center;
- }
-
-p {
-    text-align: center;
+    background-color: black;
+    color: white;
 }
 
-#italic {
+h1 {
+    margin: none;
+}
+
+a {
+    color: red;
+}
+
+.bigbig {
+    font-size: 1600%;
+}
+
+.big {
+    font-size: 325%
+}
+
+.italic {
     font-style: italic;
 }
 
-#bold {
-    font-style: bold;
+.bold {
+    font-weight: bold;
 }
