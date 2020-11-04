@@ -5,6 +5,10 @@ body {
     color: white;
 }
 
+div {
+    width: 100%;
+}
+
 h1 {
     margin: none;
 }
