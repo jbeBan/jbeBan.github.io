@@ -6,3 +6,17 @@
 body {
     font-family: openLight;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, white, black, black, black, white);
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    margin: 0.5vw;
+}
