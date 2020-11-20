@@ -12,11 +12,11 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(90deg, white, black, black, black, white);
+    background-color: black;
     text-align: center;
 }
 
-.footer p {
+.footer-text {
     color: white;
     margin: 0.5vw;
 }
