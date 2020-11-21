@@ -29,13 +29,29 @@ ol {
     width: 28vw;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: rgb(0, 0, 173);
+}
+
 table {
     table-layout: fixed;
+    width: 98%;
 }
 
 td {
-    width: 7vw;
-    max-width: 7vw;
+    width: 12.25%;
     height: 3vw;
     word-wrap: break-word;
     text-align: left;
@@ -92,10 +108,13 @@ td {
     color: black;
     font-weight: bold;
     font-size: 1.3vw;
+    border-bottom: 0.1vw solid gray;
 }
 
-.titleBorder {
-    border-top: 0.1vw solid gray;
+.firstHrColumn {
+    text-align: right;
+    color: black;
+    font-size: 1.3vw;
 }
 
 .hourColumn {
@@ -105,8 +124,23 @@ td {
     font-size: 1.3vw;
 }
 
+.workout {
+    background-color: red;
+    border-radius: 0.5vw;
+}
+
 .work {
     background-color: rgb(39, 39, 139);
+    border-radius: 0.5vw;
+}
+
+.math1210 {
+    background-color: rgb(0, 153, 255);
+    border-radius: 0.5vw;
+}
+
+.cs2300 {
+    background-color: rgb(215, 113, 255);
     border-radius: 0.5vw;
 }
 
@@ -116,6 +150,6 @@ td {
 }
 
 .cs2550 {
-    background-color: red;
+    background-color: rgb(245, 180, 0);
     border-radius: 0.5vw;
 }
