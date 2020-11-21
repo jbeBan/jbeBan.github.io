@@ -17,12 +17,12 @@ h1 {
 }
 
 img {
-    width: 23vw;
-    border-radius: 0.75vw;
-    float: right;
     position: relative;
-    top: 7vw;
-    right: 4vw;
+    top: 0.15vw;
+    left: 0.1vw;
+    width: 98%;
+    border-radius: 0.75vw;
+    border: 0.2vw solid black;
 }
 
 ol {
@@ -40,6 +40,7 @@ a:hover {
 a:link {
     color: red;
 }
+
 
 a:visited {
     color: rgb(0, 0, 173);
@@ -83,11 +84,23 @@ td {
 .main {
     background-color: white;
     border: 0.8vw double black;
-    border-radius: 1vw;
+    border-radius: 1.5vw;
     padding: 0vw 2vw 1vw 3vw;
     margin: 1vw 14vw 3.8vw 14vw;
     text-align: left;
     color: black;
+}
+
+.spanImg {
+    float: right;
+    position: relative;
+    top: 6vw;
+    right: 4vw;
+    width: 23vw;
+    padding-right: 0.05vw;
+    background-color: black;
+    border: 1vw double white;
+    border-radius: 1.75vw;
 }
 
 .p-limerick {
