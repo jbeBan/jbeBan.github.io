@@ -21,6 +21,20 @@ img {
     width: 23vw;
 }
 
+table {
+    table-layout: fixed;
+}
+
+tr {
+    border: 2px solid black;
+}
+
+td {
+    width: 8vw;
+    height: 3vw;
+    word-wrap: break-word;
+}
+
 .hero-image {
     background: url(/imgs/heroImage.JPG);
     height: 48vw;
@@ -82,4 +96,10 @@ img {
 
 .italics {
     font-style: italic;
+}
+
+.hourColumn {
+    text-align: right;
+    padding-right: 4vw;
+    width: 4vw;
 }
