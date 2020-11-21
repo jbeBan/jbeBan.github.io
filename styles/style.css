@@ -7,7 +7,6 @@ body {
     font-family: openLight;
     font-size: 1.3vw;
     margin: 0vw;
-    height: 100%;
     background-color: black;
     color: white;
     text-align: center;
@@ -19,31 +18,42 @@ h1 {
 
 img {
     width: 23vw;
+    border-radius: 0.75vw;
+    float: right;
+    position: relative;
+    top: 7vw;
+    right: 4vw;
+}
+
+ol {
+    width: 28vw;
 }
 
 table {
     table-layout: fixed;
 }
 
-tr {
-    border: 2px solid black;
-}
-
 td {
-    width: 8vw;
+    width: 7vw;
+    max-width: 7vw;
     height: 3vw;
     word-wrap: break-word;
+    text-align: left;
+    vertical-align: top;
+    padding: 0.4vw;
+    font-size: 1vw;
+    color: white;
 }
 
 .hero-image {
     background: url(/imgs/heroImage.JPG);
-    height: 48vw;
+    height: 50.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     border-bottom: 0.5vw solid white;
-    margin-bottom: 1vw;
+    margin-bottom: 4vw;
 }
 
 .hero-text {
@@ -64,30 +74,8 @@ td {
     color: black;
 }
 
-.imgDiv {
-    float: right;
-    position: relative;
-    top: 7vw;
-    right: 3.5vw;
-    margin-left: 4vw;
-}
-
 .p-limerick {
     margin-left: 3vw;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    text-align: center;
-}
-
-.footer-text {
-    color: white;
-    margin: 0.5vw;
 }
 
 .bold {
@@ -98,8 +86,36 @@ td {
     font-style: italic;
 }
 
+.titleRow {
+    text-align: center;
+    vertical-align: bottom;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.titleBorder {
+    border-top: 0.1vw solid gray;
+}
+
 .hourColumn {
     text-align: right;
-    padding-right: 4vw;
-    width: 4vw;
+    border-top: 0.1vw solid gray;
+    color: black;
+    font-size: 1.3vw;
+}
+
+.work {
+    background-color: rgb(39, 39, 139);
+    border-radius: 0.5vw;
+}
+
+.cs2810 {
+    background-color: green;
+    border-radius: 0.5vw;
+}
+
+.cs2550 {
+    background-color: red;
+    border-radius: 0.5vw;
 }
