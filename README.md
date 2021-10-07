@@ -11,5 +11,3 @@ Style Points I Completed:
     Center Your Document (5 points)
     Style Your Weekly Schedule - All options (5 points)
     Add a Browser Tab Icon/Favicon (10 points)
-
-This is a test
